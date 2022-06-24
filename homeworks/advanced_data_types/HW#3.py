@@ -75,11 +75,11 @@ print(f'Anna has {number_of_apples} apples and {number_of_peaches} peaches')
 
 # 10. With % operator
 print('Anna has %s apples and %s peaches' %(number_of_apples, number_of_peaches))
+
 # Anna has 2 apples and 4 peaches
 
 # 11*. With variable substitutions by name (hint: by using dict)
-data = {'number_of_apples':9, 'number_of_peaches':8}
-print(f'Anna has {data["number_of_apples"]} apples and {data["number_of_peaches"]} peaches')
+print('Anna has %(number_apples)s apples and %(number_peaches)s peaches.' %{'number_apples': 9,'number_peaches': 8})
 # Anna has 9 apples and 8 peaches
 
 # Comprehensions:
