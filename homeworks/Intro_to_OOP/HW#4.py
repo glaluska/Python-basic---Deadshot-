@@ -57,7 +57,7 @@ class Bus(Vehicle):
             raise 'Error'
 
 # 7
-    def len(self):
+    def __len__(self):
         return len(self.name)
 
 # 8, 9
