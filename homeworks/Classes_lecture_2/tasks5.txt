@@ -100,4 +100,3 @@ class Celsius:
 # create an object
 {obj} = ...
 
-print({obj}.temperature)
