@@ -60,17 +60,24 @@ class Bus(Vehicle):
     def __len__(self):
         return len(self.name)
 
-# 8, 9
+# 8
 
 
-class Engine(Car):
-    def __init__(self, name, max_speed, total_capacity, used_capacity, volume):
-        super().__init__(name, max_speed, total_capacity, used_capacity)
+class Engine:
+    def __init__(self, volume):
         self.volume = volume
 
+    def get_volume(self):
+        return self.volume
 
-def get_volume(self):
-    return get_volume(self.name)
+# 9
+
+
+class Car(Vehicle, Engine):
+    def __int__(self, name, max_speed, total_capacity):
+        super().__int__(name, max_speed, total_capacity)
+
+
 
 # 10
 

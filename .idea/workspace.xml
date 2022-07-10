@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0ef964c-1906-4fa3-b3a8-db3aad90df1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/homeworks/Classes_lecture_2/HW#5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeworks/Classes_lecture_2/new.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homeworks/Classes_lecture_2/tasks5.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/Intro_to_OOP/HW#4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/Intro_to_OOP/HW#4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +152,7 @@
       <workItem from="1655971257315" duration="3704000" />
       <workItem from="1656054627357" duration="953000" />
       <workItem from="1656521706311" duration="6838000" />
-      <workItem from="1656581929516" duration="30867000" />
+      <workItem from="1656581929516" duration="31921000" />
     </task>
     <servers />
   </component>
