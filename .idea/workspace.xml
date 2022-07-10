@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0ef964c-1906-4fa3-b3a8-db3aad90df1d" name="Changes" comment="">
+    <list default="true" id="b0ef964c-1906-4fa3-b3a8-db3aad90df1d" name="Changes" comment="refactored tasks 2, 5">
+      <change afterPath="$PROJECT_DIR$/homeworks/iterator_generator/HW#8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworks/iterator_generator/tasks8.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +40,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/alla/Desktop/Cursor Python Basic/Lesson 2/Python-basic---Deadshot-&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.HW#5">
+  <component name="RunManager" selected="Python.HW#8">
     <configuration name="HW#3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-basic---Deadshot-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +107,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="HW#8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-basic---Deadshot-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homeworks/iterator_generator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homeworks/iterator_generator/HW#8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="new" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-basic---Deadshot-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.HW#8" />
         <item itemvalue="Python.HW#5" />
         <item itemvalue="Python.new" />
         <item itemvalue="Python.HW#4" />
@@ -151,8 +176,16 @@
       <workItem from="1655971257315" duration="3704000" />
       <workItem from="1656054627357" duration="953000" />
       <workItem from="1656521706311" duration="6838000" />
-      <workItem from="1656581929516" duration="32659000" />
+      <workItem from="1656581929516" duration="46185000" />
     </task>
+    <task id="LOCAL-00001" summary="refactored tasks 2, 5">
+      <created>1657445373998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657445373998</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +202,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactored tasks 2, 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored tasks 2, 5" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <default-breakpoints>
@@ -182,8 +219,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_basic___Deadshot_$HW_4.coverage" NAME="HW#4 Coverage Results" MODIFIED="1656596829307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homeworks/Intro_to_OOP" />
-    <SUITE FILE_PATH="coverage/Python_basic___Deadshot_$HW_5.coverage" NAME="HW#5 Coverage Results" MODIFIED="1656949112785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homeworks/Classes_lecture_2" />
+    <SUITE FILE_PATH="coverage/Python_basic___Deadshot_$HW_5.coverage" NAME="HW#5 Coverage Results" MODIFIED="1657445300888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homeworks/Classes_lecture_2" />
     <SUITE FILE_PATH="coverage/Python_basic___Deadshot_$HW_3.coverage" NAME="HW#3 Coverage Results" MODIFIED="1656055010482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homeworks/advanced_data_types" />
     <SUITE FILE_PATH="coverage/Python_basic___Deadshot_$new.coverage" NAME="new Coverage Results" MODIFIED="1656941617451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homeworks/Classes_lecture_2" />
+    <SUITE FILE_PATH="coverage/Python_basic___Deadshot_$HW_8.coverage" NAME="HW#8 Coverage Results" MODIFIED="1657473755651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homeworks/iterator_generator" />
   </component>
 </project>
