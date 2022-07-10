@@ -19,8 +19,8 @@ pass
 
 # 2
 class Guitar:
-    def __init__(self, guitarString):
-        self.guitarString = guitarString
+    def __init__(self, guitar_string):
+        self.guitar_string = guitar_string
 
 
 
@@ -29,8 +29,8 @@ class GuitarString:
         self.material = material
 
 
-guitarString = GuitarString("wood")
-guitar = Guitar(guitarString)
+guitar_string = GuitarString("wood")
+guitar = Guitar(guitar_string)
 
 # 3
 
@@ -77,8 +77,8 @@ class Concert:
 
     @visitors_count.setter
     def visitors_count(self, value):
-        if value > Concert.max_visitors_num:
-            self.__visitors_count = Concert.max_visitors_num
+        if value > self.max_visitors_num:
+            self.__visitors_count = self.max_visitors_num
         else:
             self.__visitors_count = value
 
